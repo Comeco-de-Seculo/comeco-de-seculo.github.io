@@ -1,15 +1,15 @@
 const content = ({
   header: {
-      text1: 'paragrafo1',
-      text2: 'paragrafo2',
-      text3: 'pessoas',
+      text1: 'Começo de Século (Beginning of a Century) is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 5, from midnight to three in the morning, at Galeria Jaqueline Martins, and',
+      text2: 'is accompanied by this site with a selection of commissioned videos, and activities in public spaces throughout this end of the year.',
+      text3: 'Curated by: Germano Dushá Curatorial assistant: Guilherme Teixeira',
       text4: 'local'
   },
   list: [
     {
-      index: 'CDS12',
+      index: 'CDS01',
       length: '4:03"',
-      title: 'MECENAS AMET por LESDA'
+      title: 'CRISE por COMEÇO DE SÉCULO VT'
     }
   ]
 })
