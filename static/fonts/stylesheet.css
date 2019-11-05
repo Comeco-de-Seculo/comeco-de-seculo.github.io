@@ -1,0 +1,24 @@
+@font-face {
+    font-family: 'Spectral';
+    src: url('/static/fonts/Spectral-Light.woff2') format('woff2'),
+        url('/static/fonts/Spectral-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('/static/fonts/Spectral-LightItalic.woff2') format('woff2'),
+        url('/static/fonts/Spectral-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Spectral';
+    src: url('/static/fonts/Spectral-ExtraLight.woff2') format('woff2'),
+        url('/static/fonts/Spectral-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+}
+
