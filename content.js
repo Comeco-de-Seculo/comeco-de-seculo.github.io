@@ -9,19 +9,25 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '4:03"',
-      title: 'CRISE por COMEÇO DE SÉCULO VT'
+      length: '4:03',
+      title: 'CRISE / "COMEÇO DE SÉCULO VT"'
     },
     {
       index: 'CDS02',
-      length: '4:12"',
-      title: 'CRISE por COMEÇO DE SÉCULO VVMTII'
+      length: '4:12',
+      title: 'JONAS VAN / "nomes de Abismos"'
     },
-    {
+      {
       index: 'CDS03',
-      length: '2:12"',
-      title: ' A CRISE por TII'
+      length: '4:03',
+      title: 'RICARDO CARIOBA / "CÍRCULO"'
     },
+      {
+      index: 'CDS04',
+      length: '4:03',
+      title: 'VITÓRIA CRIBB / "TÍTULO DO TRAB"'
+    },
+    
   ]
 })
 
