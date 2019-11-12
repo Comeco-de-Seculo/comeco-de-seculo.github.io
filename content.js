@@ -10,21 +10,21 @@ const content = ({
     {
       index: 'CDS01',
       length: '4:03',
-      title: 'CRISE "COMEÇO DE SÉCULO VT"',
+      title: 'CRISE "Título do Vídeo"',
       video: 'static/media/Jonas.mp4',
       thumb: 'static/media/Jonas.jpg'
     },
     {
       index: 'CDS02',
       length: '4:12',
-      title: 'JONAS VAN "nomes de Abismos"',
+      title: 'Jonas Van "nomes de Abismos"',
       video: 'static/media/Jonas.mp4',
       thumb: 'static/media/Jonas.jpg'
     },
     {
       index: 'CDS03',
       length: '4:03',
-      title: 'RICARDO CARIOBA "CÍRCULO"',
+      title: 'Ricardo Carioba "Círculo"',
     },
     {
       index: 'CDS04',
