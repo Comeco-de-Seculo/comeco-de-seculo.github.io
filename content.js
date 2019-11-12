@@ -10,16 +10,16 @@ const content = ({
     {
       index: 'CDS01',
       length: '4:03',
-      title: 'Jonas Van "nomes de Abismos"',
+      title: 'Maria Noujaim "Exúvia"',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
     {
       index: 'CDS02',
-      length: '4:12',
+      length: '4:03',
       title: 'Jonas Van "nomes de Abismos"',
-      video: 'static/media/Jonas.mp4',
-      thumb: 'static/media/Jonas.jpg'
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/JV_NDA.png'
     },
     {
       index: 'CDS03',
@@ -29,7 +29,7 @@ const content = ({
     {
       index: 'CDS04',
       length: '4:03',
-      title: 'VITÓRIA CRIBB "TÍTULO DO TRAB"'
+      title: 'Vitória Cribb "glitch_meucorpotrava"'
     },
     
   ]
