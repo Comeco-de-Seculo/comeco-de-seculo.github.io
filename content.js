@@ -10,9 +10,9 @@ const content = ({
     {
       index: 'CDS01',
       length: '4:03',
-      title: 'CRISE "Título do Vídeo"',
-      video: 'static/media/Jonas.mp4',
-      thumb: 'static/media/Jonas.jpg'
+      title: 'Jonas Van "nomes de Abismos"',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/JV_NDA.png'
     },
     {
       index: 'CDS02',
