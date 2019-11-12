@@ -28,7 +28,7 @@ function Home() {
             className='scale-text'
             onMouseEnter={() => setHoverItem(item)}
             onMouseLeave={() => setHoverItem(null)}
-            // onClick={() => setSelectedItem(item)}
+            onClick={() => setSelectedItem(item)}
           >
             <td>{item.index}</td>
             <td>{item.length}</td>
@@ -94,6 +94,9 @@ function Home() {
         font-weight: 200;
         line-height: 2em;
         transform: scaleY(2);
+      }
+      .page > table tr:hover {
+        text-decoration: underline;
       }
       .thumb {
         position: absolute;
