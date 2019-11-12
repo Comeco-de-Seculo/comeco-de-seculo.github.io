@@ -10,7 +10,7 @@ const content = ({
     {
       index: 'CDS01',
       length: '4:03',
-      title: 'Maria Noujaim "Exúvia"',
+      title: 'Ricardo Carioba "Bilateral"',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
@@ -24,14 +24,25 @@ const content = ({
     {
       index: 'CDS03',
       length: '4:03',
-      title: 'Ricardo Carioba "Círculo"',
+      title: 'Maria Noujaim "Exúvia"',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/JV_NDA.png'
     },
     {
       index: 'CDS04',
       length: '4:03',
       title: 'Vitória Cribb "glitch_meucorpotrava"'
     },
-    
+    {
+      index: 'CDS05',
+      length: '4:03',
+      title: 'CRISE "Título do trabalho"'
+    },
+    {
+      index: 'CDS06',
+      length: '4:03',
+      title: 'Janaina Wagner "Título do trabalho"'
+    },
   ]
 })
 
