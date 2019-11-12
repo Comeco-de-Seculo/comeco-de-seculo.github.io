@@ -10,29 +10,28 @@ const content = ({
     {
       index: 'CDS01',
       length: '4:03',
-      title: 'CRISE / "COMEÇO DE SÉCULO VT"',
+      title: 'CRISE "COMEÇO DE SÉCULO VT"',
       video: 'static/media/Jonas.mp4',
       thumb: 'static/media/Jonas.jpg'
     },
     {
       index: 'CDS02',
       length: '4:12',
-      title: 'JONAS VAN / "nomes de Abismos"',
+      title: 'JONAS VAN "nomes de Abismos"',
       video: 'static/media/Jonas.mp4',
       thumb: 'static/media/Jonas.jpg'
     },
     {
       index: 'CDS03',
       length: '4:03',
-      title: 'RICARDO CARIOBA / "CÍRCULO"',
-      video: 'static/videos/Jonas.mov'
+      title: 'RICARDO CARIOBA "CÍRCULO"',
     },
     {
       index: 'CDS04',
       length: '4:03',
-      title: 'VITÓRIA CRIBB / "TÍTULO DO TRAB"',
-      video: 'static/videos/Jonas.mov'
-    }    
+      title: 'VITÓRIA CRIBB "TÍTULO DO TRAB"'
+    },
+    
   ]
 })
 
