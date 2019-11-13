@@ -10,40 +10,47 @@ const content = ({
     {
       index: 'CDS01',
       length: '13:46',
-      title: 'Ricardo Carioba "Bilateral"',
+      title: 'COMEÇO DE SÉCULO_Épico Apoteótico Ao vivo',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/CDS_EAAV.png'
+    },
+    {
+      index: 'CDS02',
+      length: '13:46',
+      title: 'RICARDO CARIOBA_Bilateral',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/RC_B.png'
     },
     {
-      index: 'CDS02',
+      index: 'CDS03',
       length: '4:03',
-      title: 'Jonas Van "nomes de Abismos"',
+      title: 'JONAS VAN_nomes de Abismos',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
     {
-      index: 'CDS03',
+      index: 'CDS04',
       length: '9:00',
-      title: 'Maria Noujaim "Exúvia"',
+      title: 'MARIA NOUJAIM_Exúvia',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/MN_E.png'
     },
     {
-      index: 'CDS04',
+      index: 'CDS05',
       length: '4:03',
-      title: 'Vitória Cribb "glitch_meucorpotrava"',
+      title: 'VITÓRIA CRIBB_glitch_meucorpotrava',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/VC_GMCT.png'
     },
     {
-      index: 'CDS05',
-      length: '4:03',
-      title: 'CRISE "Título do trabalho"'
-    },
-    {
       index: 'CDS06',
       length: '4:03',
-      title: 'Janaina Wagner "Título do trabalho"'
+      title: 'CRISE_Título do trabalho'
+    },
+    {
+      index: 'CDS07',
+      length: '4:03',
+      title: 'JANAINA WAGNER_Título do trabalho'
     },
   ]
 })
