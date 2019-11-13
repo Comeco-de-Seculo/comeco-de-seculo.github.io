@@ -30,9 +30,9 @@ function Home() {
             onMouseLeave={() => setHoverItem(null)}
             onClick={() => setSelectedItem(item)}
           >
-            <td>{item.index}</td>
-            <td>{item.length}</td>
-            <td>{item.title}</td>
+            <td><span>{item.index}</span></td>
+            <td><span>{item.length}</span></td>
+            <td><span>{item.title}</span></td>
           </tr>
         )}
       </tbody>
@@ -45,7 +45,9 @@ function Home() {
         margin: 0;
       }
       table {
-        width: 100%;
+        width: calc(100% - 4em);
+        border-collapse: collapse;
+        margin: 2em;
       }
       .page {
         display: flex;
@@ -87,16 +89,20 @@ function Home() {
         line-height: 1em;
         font-size: 20px;
       }
-      .page > table {
-      }
-      .page > table tr {
+      .page > table td span {
         font-size: 30px;
         font-weight: 200;
-        line-height: 2em;
+        line-height: 1em;
+        margin: .5em 0;
         transform: scaleY(2);
+        cursor: pointer;
+        display: block;
       }
-      .page > table tr:hover {
-        text-decoration: underline;
+      .page > table tr td {
+        border-bottom: 2px solid transparent;
+      }
+      .page > table tr:hover td {
+        border-bottom: 2px solid #8230FA;
       }
       .thumb {
         position: absolute;
