@@ -38,7 +38,8 @@ function Home() {
       </tbody>
     </table>
     {selectedItem && <div className='modal'>
-      <video src={selectedItem.video} />
+      <video src={selectedItem.video} autoplay controls />
+      <a href="#" onClick={() => setSelectedItem(null)}>x</a>
     </div>}
     <style jsx global>{`
       body {
@@ -120,6 +121,13 @@ function Home() {
       .modal video {
         width: 640px;
         height: 480px
+      }
+      .modal a {
+        position: absolute;
+        top: 5px;
+        right: 5px;
+        color: white;
+        font-size: 20px;
       }
       `}</style>
       </div>
