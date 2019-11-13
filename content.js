@@ -9,10 +9,10 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '4:03',
+      length: '13:46',
       title: 'Ricardo Carioba "Bilateral"',
       video: 'static/media/JV_NDA.mp4',
-      thumb: 'static/media/JV_NDA.png'
+      thumb: 'static/media/RC_B.png'
     },
     {
       index: 'CDS02',
@@ -23,15 +23,17 @@ const content = ({
     },
     {
       index: 'CDS03',
-      length: '4:03',
+      length: '9:00',
       title: 'Maria Noujaim "Exúvia"',
       video: 'static/media/JV_NDA.mp4',
-      thumb: 'static/media/JV_NDA.png'
+      thumb: 'static/media/MN_E.png'
     },
     {
       index: 'CDS04',
       length: '4:03',
-      title: 'Vitória Cribb "glitch_meucorpotrava"'
+      title: 'Vitória Cribb "glitch_meucorpotrava"',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/VC_GMCT.png'
     },
     {
       index: 'CDS05',
