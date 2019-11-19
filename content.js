@@ -10,7 +10,7 @@ const content = ({
     {
       index: 'CDS01',
       length: '13:46',
-      title: 'COMEÇO DE SÉCULO_Épico Apoteótico Ao vivo',
+      title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/CDS_EAAV.png'
     },
