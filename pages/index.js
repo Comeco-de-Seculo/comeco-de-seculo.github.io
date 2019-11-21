@@ -65,14 +65,7 @@ function Home() {
         padding: 30px;
       }
       .page > div:first-child {
-        border-bottom: 1px solid #8230FA;
-        height: 140px;
-        display: flex;
-        justify-content: space-between;
-      }
-      
-      .page > div:first-child {
-        border-bottom: 1px solid #8230FA;
+        border-bottom: 2px solid #8230FA;
         height: 140px;
         display: flex;
         justify-content: space-between;
@@ -100,10 +93,10 @@ function Home() {
         display: block;
       }
       .page > table tr td {
-        border-bottom: 2px solid transparent;
+        border-bottom: 1px solid transparent;
       }
       .page > table tr:hover td {
-        border-bottom: 2px solid #8230FA;
+        border-bottom: 1px solid #8230FA;
       }
       .thumb {
         position: absolute;
@@ -124,10 +117,11 @@ function Home() {
       }
       .modal a {
         position: absolute;
-        top: 5px;
-        right: 5px;
-        color: white;
-        font-size: 20px;
+        top: 13px;
+        right: 25px;
+        font-size: 30px;
+        color: #8230FA;
+        text-decoration: none;
       }
       `}</style>
       </div>
