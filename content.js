@@ -9,7 +9,7 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '13:46',
+      length: '9:33',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/CDS_EAAV.png'
@@ -23,34 +23,38 @@ const content = ({
     },
     {
       index: 'CDS03',
-      length: '4:03',
+      length: 'O4:03',
       title: 'JONAS VAN_nomes de Abismos',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
     {
       index: 'CDS04',
-      length: '9:00',
+      length: '09:00',
       title: 'MARIA NOUJAIM_Exúvia',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/MN_E.png'
     },
     {
       index: 'CDS05',
-      length: '4:03',
-      title: 'VITÓRIA CRIBB_glitch_meucorpotrava',
+      length: '03:08',
+      title: 'JANAINA WAGNER_Licantropia (Excerto)',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/VC_GMCT.png'
     },
     {
       index: 'CDS06',
-      length: '4:03',
-      title: 'CRISE_Título do trabalho'
+      length: '06:30',
+      title: 'CRISE_Título do trabalho',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/VC_GMCT.png'
     },
     {
       index: 'CDS07',
-      length: '4:03',
-      title: 'JANAINA WAGNER_Título do trabalho'
+      length: '03:20',
+      title: 'VITÓRIA CRIBB_glitch_meucorpotrava',
+      video: 'static/media/JV_NDA.mp4',
+      thumb: 'static/media/VC_GMCT.png'
     },
   ]
 })
