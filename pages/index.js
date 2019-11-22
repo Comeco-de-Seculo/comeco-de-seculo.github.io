@@ -11,8 +11,12 @@ function Home() {
     <Head>
       <link rel="stylesheet" type="text/css" href="/static/fonts/stylesheet.css" />
       <title>{content.title}</title>
+      <link rel="icon" type="image/png" sizes="192x192"  href="/static/android-icon-192x192.png" />
+      <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
+      <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png" />
+      <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
     </Head>
-    <div>
+    <div onClick={() => setSelectedItem(null)}>
       <img className='logo' src='/static/logo.png' />
       <div className='t1'>{content.header.text1}</div>
       <div className='t2'>{content.header.text2}</div>
@@ -65,10 +69,11 @@ function Home() {
         padding: 30px;
       }
       .page > div:first-child {
-        border-bottom: 2px solid #8230FA;
+        border-bottom: 3px solid #8230FA;
         height: 140px;
         display: flex;
         justify-content: space-between;
+        min-height: 140px;
       }
       .page .logo {
         height: 140px;
@@ -117,8 +122,8 @@ function Home() {
       }
       .modal a {
         position: absolute;
-        top: 13px;
-        right: 25px;
+        top: 27px;
+        right: 35px;
         font-size: 30px;
         color: #8230FA;
         text-decoration: none;
