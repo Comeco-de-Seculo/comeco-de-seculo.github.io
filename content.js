@@ -2,7 +2,7 @@ const content = ({
   title: 'Começo de Século',
   header: {
       text1: 'Começo de Século é um épico apoteótico ao vivo — parte exposição, happening e teatro experimental — que acontece em ato único no dia 06 de novembro, da meia-noite às três da manhã',
-      text2: 'na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum, e este site com vídeos comissionados e documentais.',
+      text2: 'na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum musical, e este site com vídeos comissionados e documentais.',
       text3: 'Curadoria:\nGermano Dushá\nAss. de curadoria:\nGuilherme Teixeira',
       text4: 'São\nPaulo\n2019'
   },
