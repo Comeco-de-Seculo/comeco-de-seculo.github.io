@@ -53,7 +53,7 @@ const content = ({
       index: 'CDS07',
       length: '03:20',
       title: 'VITÓRIA CRIBB_glitch_meucorpotrava',
-      video: 'static/media/JV_NDA.mp4',
+      video: 'static/media/VC_GMCT.mp4',
       thumb: 'static/media/VC_GMCT.png'
     },
   ]
