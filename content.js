@@ -38,7 +38,7 @@ const content = ({
     {
       index: 'CDS05',
       length: '03:08',
-      title: 'JANAINA WAGNER_Licantropia (Excerto)',
+      title: 'JANAINA WAGNER_Licantropia (excerto)',
       video: 'static/media/JW_L.mp4',
       thumb: 'static/media/JW_L.png'
     },
