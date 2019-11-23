@@ -9,7 +9,7 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '9:33',
+      length: '09:33',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/CDS_EAAV.png'
@@ -23,7 +23,7 @@ const content = ({
     },
     {
       index: 'CDS03',
-      length: 'O4:03',
+      length: '04:03',
       title: 'JONAS VAN_nomes de Abismos',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
