@@ -18,7 +18,7 @@ const content = ({
       index: 'CDS02',
       length: '13:46',
       title: 'RICARDO CARIOBA_Bilateral',
-      video: 'static/media/JV_NDA.mp4',
+      video: 'static/media/RC_B.mp4',
       thumb: 'static/media/RC_B.png'
     },
     {
@@ -39,8 +39,8 @@ const content = ({
       index: 'CDS05',
       length: '03:08',
       title: 'JANAINA WAGNER_Licantropia (Excerto)',
-      video: 'static/media/JV_NDA.mp4',
-      thumb: 'static/media/VC_GMCT.png'
+      video: 'static/media/JW_L.mp4',
+      thumb: 'static/media/JW_L.png'
     },
     {
       index: 'CDS06',
