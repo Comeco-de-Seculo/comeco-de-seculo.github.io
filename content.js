@@ -2,7 +2,7 @@ const content = ({
   title: 'Começo de Século',
   header: {
       text1: 'BEGINNING OF A CENTURY is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 5, from midnight to 3 a.m.',
-      text2: 'at Galeria Jaqueline Martins, and is followed by unannounced activities in public spaces, an album and this site with commissioned and documentation videos.',
+      text2: 'at Galeria Jaqueline Martins, and is followed by unannounced activities in public spaces, a music album and this site with commissioned and documentation videos.',
       text3: 'Curated by:\nGERMANO DUSHÁ\nCuratorial ass:\nGUILHERME TEIXEIRA',
       text4: 'SÃO\nPAULO\n2019'
   },
