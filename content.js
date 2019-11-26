@@ -11,7 +11,7 @@ const content = ({
       index: 'CDS01',
       length: '09:33',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
-      video: 'static/media/JV_NDA.mp4',
+      video: 'static/media/CDS_AAAV.mp4',
       thumb: 'static/media/CDS_EAAV.png'
     },
     {
@@ -30,9 +30,9 @@ const content = ({
     },
     {
       index: 'CDS04',
-      length: '09:00',
+      length: '09:01',
       title: 'MARIA NOUJAIM_Exúvia',
-      video: 'static/media/JV_NDA.mp4',
+      video: 'static/media/MN_E.mp4',
       thumb: 'static/media/MN_E.png'
     },
     {
@@ -44,17 +44,18 @@ const content = ({
     },
     {
       index: 'CDS06',
-      length: '06:30',
-      title: 'CRISE_Título do trabalho',
-      video: 'static/media/JV_NDA.mp4',
-      thumb: 'static/media/VC_GMCT.png'
-    },
-    {
-      index: 'CDS07',
-      length: '03:20',
+      length: '02:52',
       title: 'VITÓRIA CRIBB_Conflitos Internos',
       video: 'static/media/VC_CI.mp4',
       thumb: 'static/media/VC_CI.png'
+
+    },
+    {
+      index: 'CDS07',
+      length: '06:30',
+      title: 'CRISE_Título do trabalho',
+      video: 'static/media/C_TT.mp4',
+      thumb: 'static/media/C_TT.png'
     },
   ]
 })
