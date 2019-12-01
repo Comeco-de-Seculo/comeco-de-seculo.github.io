@@ -53,9 +53,9 @@ const content = ({
     {
       index: 'CDS07',
       length: '06:30',
-      title: 'CRISE_Título do trabalho',
-      video: 'static/media/C_TT.mp4',
-      thumb: 'static/media/C_TT.png'
+      title: 'TIERRA MEMORIA_EN LAS MARGENES DEL RIO BOBONAZA',
+      video: 'static/media/TM_ELMDRB.mp4',
+      thumb: 'static/media/TM_ELMDRB.png'
     },
   ]
 })
