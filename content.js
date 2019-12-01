@@ -10,7 +10,7 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '09:33',
+      length: '13:33',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/CDS_EAAV.mp4',
       thumb: 'static/media/CDS_EAAV.png'
@@ -53,10 +53,10 @@ const content = ({
     },
     {
       index: 'CDS07',
-      length: '06:30',
-      title: 'CRISE_Título do trabalho',
-      video: 'static/media/C_TT.mp4',
-      thumb: 'static/media/C_TT.png'
+      length: '06:48',
+      title: 'TIERRA MEMORIA_EN LAS MARGENES DEL RIO BOBONAZA',
+      video: 'static/media/TM_ELMDRB.mp4',
+      thumb: 'static/media/TM_ELMDRB.png'
     },
   ]
 })
