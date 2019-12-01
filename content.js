@@ -1,5 +1,6 @@
 const content = ({
   title: 'Começo de Século',
+  description: 'Começo de Século é um épico apoteótico ao vivo — parte exposição, happening e teatro experimental — que acontece em ato único no dia 05 de novembro de 2019, da meia-noite às três da manhã na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum e este site com vídeos comissionados e documentais.',
   header: {
       text1: 'BEGINNING OF A CENTURY is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 5, from midnight to 3 a.m.',
       text2: 'at Galeria Jaqueline Martins, and is followed by unannounced activities in public spaces, a music album and this site with commissioned and documentation videos.',
