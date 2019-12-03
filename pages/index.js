@@ -1,6 +1,7 @@
 import {useState} from 'react'
 import Head from 'next/head'
 import content from '../content'
+import Close from '../components/Close'
 
 function Home() {
   const [hoverItem, setHoverItem] = useState(null)
@@ -15,15 +16,19 @@ function Home() {
       <link rel="icon" type="image/png" sizes="32x32" href="/static/favicon-32x32.png" />
       <link rel="icon" type="image/png" sizes="96x96" href="/static/favicon-96x96.png" />
       <link rel="icon" type="image/png" sizes="16x16" href="/static/favicon-16x16.png" />
+      <meta property="og:image" content="/static/share.png" />
+      <meta property="og:title" content={content.title} />
+      <meta property="og:description" content={content.description} />
+      <meta property="og:locale" content="pt_BR" />
     </Head>
-    <div onClick={() => setSelectedItem(null)}>
+    <header onClick={() => setSelectedItem(null)}>
       <img className='logo' src='/static/logo.png' />
       <div className='t1'>{content.header.text1}</div>
       <div className='t2'>{content.header.text2}</div>
       <div className='t3'>{content.header.text3}</div>
       <div className='t4'>{content.header.text4}</div>
       {hoverItem && <img className='thumb' src={hoverItem.thumb} />}
-    </div>
+    </header>
     <table>
       <tbody>
         {content.list.map(item =>
@@ -43,21 +48,27 @@ function Home() {
     </table>
     {selectedItem && <div className='modal'>
       <video src={selectedItem.video} autoplay controls />
-      <a href="#" onClick={() => setSelectedItem(null)}>x</a>
+      <a href="#" onClick={() => setSelectedItem(null)}><Close /></a>
     </div>}
     <style jsx global>{`
       body {
         margin: 0;
+        background-color: black;
+        min-height: 100vh;
+      }
+      @media (min-width: 580px) {
+        body {
+          min-width: 1130px
+        }
       }
       table {
         width: calc(100% - 4em);
         border-collapse: collapse;
         margin: 2em;
+        box-sizing: border-box;
       }
       .page {
         display: flex;
-        background-color: black;
-        height: 100vh;
         color: #8230FA;
         flex-direction: column;
         font-size: 16px;
@@ -65,28 +76,66 @@ function Home() {
         font-weight: 300;
         white-space: pre-wrap;
       }
-      .page > * {
+      @media (min-width: 580px) {
+        .page {
+          font-size: 13px;
+        }
+      }
+      @media (min-width: 1280px) {
+        .page {
+          font-size: 14px;
+        }
+      }
+      @media (min-width: 1480px) {
+        .page {
+          font-size: 16px;
+        }
+      }
+      header {
+        border-bottom: 3px solid #8230FA;
+        justify-content: space-between;
         padding: 30px;
       }
-      .page > div:first-child {
-        border-bottom: 3px solid #8230FA;
-        height: 140px;
-        display: flex;
-        justify-content: space-between;
-        min-height: 140px;
+      @media (min-width: 580px) {
+        header {
+          display: flex;
+          height: 140px;
+          min-height: 140px;
+        }
       }
       .page .logo {
         height: 140px;
+        margin-right: 30px;
+        max-width: 100%;
       }
-      .page > div:first-child > div {
-        max-width: 340px;
+      header > div {
         transform: scaleY(2) translateY(22%);
-        line-height: 1.2em;
+        padding-bottom: 140px
       }
-      .page > div:first-child > div.t4 {
+      @media (min-width: 376px) {
+        header > div {
+          padding-bottom: 120px
+        }
+      }
+    }
+      @media (min-width: 580px) {
+          header > div {
+          line-height: 1.2em;
+          max-width: 340px;
+          margin-right: 15px;
+          padding-bottom: 0;
+        }
+      }
+      header > div.t4 {
         transform: scaleY(2) translateY(26%);
         line-height: 1em;
         font-size: 20px;
+        margin-right: 0;
+      }
+      @media (min-width: 580px) {
+        header > div.t4 {
+          transform: scaleY(2) translateY(26%);
+        }
       }
       .page > table td span {
         font-size: 30px;
@@ -97,12 +146,6 @@ function Home() {
         cursor: pointer;
         display: block;
       }
-      .page > table tr td {
-        border-bottom: 1px solid transparent;
-      }
-      .page > table tr:hover td {
-        border-bottom: 1px solid #8230FA;
-      }
       .thumb {
         position: absolute;
         left: 0;
@@ -111,10 +154,11 @@ function Home() {
         width: auto;
       }
       .modal {
-        position: absolute;
+        position: fixed;
         top: 50%;
         left: 50%;
         transform: translate3d(-50%, -50%, 0);
+        background-color: black;
       }
       .modal video {
         width: 640px;
@@ -128,6 +172,24 @@ function Home() {
         color: #8230FA;
         text-decoration: none;
       }
+      @media (max-width: 580px) {
+        table {
+          display: block;
+        }
+        tr {
+          margin-bottom: 60px;
+          display: block;
+        }
+        td {
+          display: block
+        }
+        td:last-child {
+          margin-top: 30px
+        }
+        .modal video {
+          width: 100vw;
+          height: 75vw;
+        }
       `}</style>
       </div>
       )}

@@ -1,5 +1,6 @@
 const content = ({
   title: 'Começo de Século',
+  description: 'Começo de Século é um épico apoteótico ao vivo — parte exposição, happening e teatro experimental — que acontece em ato único no dia 05 de novembro de 2019, da meia-noite às três da manhã na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum e este site com vídeos comissionados e documentais.',
   header: {
       text1: 'BEGINNING OF A CENTURY is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 5, from midnight to 3 a.m.',
       text2: 'at Galeria Jaqueline Martins, and is followed by unannounced activities in public spaces, a music album and this site with commissioned and documentation videos.',
@@ -9,7 +10,7 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '09:33',
+      length: '13:33',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/CDS_EAAV.mp4',
       thumb: 'static/media/CDS_EAAV.png'
@@ -52,10 +53,10 @@ const content = ({
     },
     {
       index: 'CDS07',
-      length: '06:30',
-      title: 'CRISE_Título do trabalho',
-      video: 'static/media/C_TT.mp4',
-      thumb: 'static/media/C_TT.png'
+      length: '06:57',
+      title: 'TIERRA MEMORIA_EN LAS MARGENES DEL RIO BOBONAZA',
+      video: 'static/media/TM_ELMDRB.mp4',
+      thumb: 'static/media/TM_ELMDRB.png'
     },
   ]
 })
