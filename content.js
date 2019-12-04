@@ -55,7 +55,7 @@ const content = ({
       index: 'CDS07',
       length: '07:13',
       title: 'TIERRA MEMORIA_EN LAS MARGENES DEL RIO BOBONAZA',
-      video: 'static/media/TM_ELMDRB .mp4',
+      video: 'static/media/TM_ELMDRB.mp4',
       thumb: 'static/media/TM_ELMDRB.png'
     },
   ]
