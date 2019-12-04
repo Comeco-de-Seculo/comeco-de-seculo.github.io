@@ -25,7 +25,7 @@ const content = ({
     {
       index: 'CDS03',
       length: '04:03',
-      title: 'JONAS VAN_nomes de Abismos',
+      title: 'JONAS VAN_Nomes de Abismos',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
@@ -54,7 +54,7 @@ const content = ({
     {
       index: 'CDS07',
       length: '07:13',
-      title: 'TIERRA MEMORIA_EN LAS MARGENES DEL RIO BOBONAZA',
+      title: 'TIERRA MEMORIA_En las margenes del río Bobonaza',
       video: 'static/media/TM_ELMDRB.mp4',
       thumb: 'static/media/TM_ELMDRB.png'
     },
