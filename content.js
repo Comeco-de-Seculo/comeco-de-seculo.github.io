@@ -10,7 +10,7 @@ const content = ({
   list: [
     {
       index: 'CDS01',
-      length: '13:33',
+      length: '12:34',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
       video: 'static/media/CDS_EAAV.mp4',
       thumb: 'static/media/CDS_EAAV.png'
