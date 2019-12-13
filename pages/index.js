@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Head from 'next/head'
 import content from '../content'
 import Close from '../components/Close'
+import Modal from '../components/Modal'
 
 function Home() {
   const [hoverItem, setHoverItem] = useState(null)
@@ -50,6 +51,7 @@ function Home() {
       <video src={selectedItem.video} autoplay controls />
       <a href="#" onClick={() => setSelectedItem(null)}><Close /></a>
     </div>}
+    <Modal />
     <style jsx global>{`
       body {
         margin: 0;
@@ -124,17 +126,6 @@ function Home() {
           max-width: 340px;
           margin-right: 15px;
           padding-bottom: 0;
-        }
-      }
-      header > div.t4 {
-        transform: scaleY(2) translateY(26%);
-        line-height: 1em;
-        font-size: 20px;
-        margin-right: 0;
-      }
-      @media (min-width: 580px) {
-        header > div.t4 {
-          transform: scaleY(2) translateY(26%);
         }
       }
       .page > table td span {
