@@ -24,32 +24,31 @@ const content = ({
     },
     {
       index: 'CDS03',
+      length: '02:52',
+      title: 'VITÓRIA CRIBB_Conflitos Internos',
+      video: 'static/media/VC_CI.mp4',
+      thumb: 'static/media/VC_CI.png'
+    },
+    {
+      index: 'CDS04',
       length: '04:03',
       title: 'JONAS VAN_Nomes de Abismos',
       video: 'static/media/JV_NDA.mp4',
       thumb: 'static/media/JV_NDA.png'
     },
     {
-      index: 'CDS04',
+      index: 'CDS05',
       length: '09:01',
       title: 'MARIA NOUJAIM_Exúvia',
       video: 'static/media/MN_E.mp4',
       thumb: 'static/media/MN_E.png'
     },
     {
-      index: 'CDS05',
+      index: 'CDS06',
       length: '03:08',
       title: 'JANAINA WAGNER_Licantropia (excerto)',
       video: 'static/media/JW_L.mp4',
       thumb: 'static/media/JW_L.png'
-    },
-    {
-      index: 'CDS06',
-      length: '02:52',
-      title: 'VITÓRIA CRIBB_Conflitos Internos',
-      video: 'static/media/VC_CI.mp4',
-      thumb: 'static/media/VC_CI.png'
-
     },
     {
       index: 'CDS07',
