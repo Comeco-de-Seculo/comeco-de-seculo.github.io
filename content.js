@@ -51,11 +51,6 @@ const content = ({
       thumb: 'static/media/JW_L.png'
     },
     {
-      index: 'CDS07',
-      length: '07:13',
-      title: 'TIERRA MEMORIA_En las margenes del río Bobonaza',
-      video: 'static/media/TM_ELMDRB.mp4',
-      thumb: 'static/media/TM_ELMDRB.png'
     },
   ]
 })
