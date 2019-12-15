@@ -90,6 +90,9 @@ const Modal = () => {
           p {
             font-size: 20px;
           }
+          img {
+            margin-top: 1900px;
+          }
         }
       `}</style>
     </div>
