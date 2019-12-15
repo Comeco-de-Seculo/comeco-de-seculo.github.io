@@ -79,6 +79,12 @@ const Modal = () => {
           height: auto;
           margin-top: 1400px
         }
+        @media (max-width: 580px) {
+          .content {
+            padding: 1em 2em 0 ;
+            padding-bottom: 300px;
+          }
+        }
       `}</style>
     </div>
     )
