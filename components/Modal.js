@@ -84,6 +84,12 @@ const Modal = () => {
             padding: 1em 2em 0 ;
             padding-bottom: 300px;
           }
+          h1, h2 {
+            font-size: 26px;
+          }
+          p {
+            font-size: 20px;
+          }
         }
       `}</style>
     </div>
