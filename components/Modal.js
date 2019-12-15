@@ -72,16 +72,16 @@ const Modal = () => {
           margin: 30px;
           display: block;
           position: fixed;
-          z-index: 1000;
+          z-index: 1001;
         }
         img {
           width: 30vw;
           height: auto;
-          margin-top: 1400px
+          margin-top: 1350px
         }
         @media (max-width: 580px) {
           .content {
-            padding: 1em 2em 0 ;
+            padding: 1em 1em 0 ;
             padding-bottom: 300px;
           }
           h1, h2 {
@@ -91,7 +91,7 @@ const Modal = () => {
             font-size: 20px;
           }
           img {
-            margin-top: 1900px;
+            margin-top: 1700px;
           }
         }
       `}</style>
