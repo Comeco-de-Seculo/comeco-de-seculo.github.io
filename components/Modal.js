@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Close from './Close'
 
 const Modal = () => {
+  console.log('porra')
   const [closed, setClosed] = useState(false)
   
   const viewStyle = {
