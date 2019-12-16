@@ -91,7 +91,8 @@ const Modal = () => {
             font-size: 20px;
           }
           img {
-            margin-top: 1700px;
+            margin-top: 2700px;
+            width: 60vw;
           }
         }
       `}</style>
