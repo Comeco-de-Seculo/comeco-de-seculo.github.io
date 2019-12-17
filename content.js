@@ -12,7 +12,7 @@ const content = ({
       index: 'CDS01',
       length: '12:34',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
-      video: 'static/media/CDS_EAAV.mp4',
+      video: 'https://www.dropbox.com/s/lwau33zrox6wcpv/Come%C3%A7o%20de%20S%C3%A9culo%20Ao%20Vivo.mp4?dl=0',
       thumb: 'static/media/CDS_EAAV.png'
     },
     {
