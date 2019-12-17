@@ -69,6 +69,9 @@ function Home() {
         margin: 2em;
         box-sizing: border-box;
       }
+      a {
+        color: #8230FA
+      }
       .page {
         display: flex;
         color: #8230FA;

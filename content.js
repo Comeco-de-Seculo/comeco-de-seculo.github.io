@@ -3,7 +3,7 @@ const content = ({
   description: 'Começo de Século é um épico apoteótico ao vivo — parte exposição, happening e teatro experimental — que acontece em ato único no dia 05 de novembro de 2019, da meia-noite às três da manhã na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum e este site com vídeos comissionados e documentais.',
   header: {
       text1: 'BEGINNING OF A CENTURY is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 6, from midnight to 3 a.m.',
-      text2: 'at Galeria Jaqueline Martins, and is followed by unannounced activities in public spaces, a music album, and this website with documentation and comissioned videos.',
+      text2: 'at <a href="https://galeriajaquelinemartins.com.br">Galeria Jaqueline Martins</a>, and is followed by unannounced activities in public spaces, a music album, and this website with documentation and comissioned videos.',
       text3: 'Curated by:\nGERMANO DUSHÁ\nCuratorial ass:\nGUILHERME TEIXEIRA',
       text4: 'SÃO\nPAULO\n2019'
   },
@@ -12,7 +12,7 @@ const content = ({
       index: 'CDS01',
       length: '12:34',
       title: 'COMEÇO DE SÉCULO_Ao Vivo',
-      video: 'https://www.dropbox.com/s/lwau33zrox6wcpv/Come%C3%A7o%20de%20S%C3%A9culo%20Ao%20Vivo.mp4?dl=0',
+      video: 'https://www.dropbox.com/s/lwau33zrox6wcpv/Come%C3%A7o%20de%20S%C3%A9culo%20Ao%20Vivo.mp4?raw=1',
       thumb: 'static/media/CDS_EAAV.png'
     },
     {
