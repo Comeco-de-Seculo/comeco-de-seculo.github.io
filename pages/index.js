@@ -25,8 +25,8 @@ function Home() {
     <header onClick={() => setSelectedItem(null)}>
       <img className='logo' src='/static/logo.png' />
       <div className='t1'>{content.header.text1}</div>
-      <div className='t2'>{content.header.text2}</div>
-      <div className='t3'>{content.header.text3}</div>
+      <div className='t2' dangerouslySetInnerHTML={{__html: content.header.text2}} />
+      <div className='t3' dangerouslySetInnerHTML={{__html: content.header.text3}} />
       <div className='t4'>{content.header.text4}</div>
       {hoverItem && <img className='thumb' src={hoverItem.thumb} />}
     </header>
