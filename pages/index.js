@@ -185,9 +185,10 @@ function Home() {
           height: 75vw;
         }
         iframe {
-          width: 100px !important;
+          width: 100vw !important;
+          height: 60vw;
         }
-      `}</style>
+      }`}</style>
       </div>
       )}
       
