@@ -19,7 +19,7 @@ const content = ({
       index: 'CDS02',
       length: '13:46',
       title: 'RICARDO CARIOBA_Bilateral',
-      video: 'https://www.youtube.com/embed/R4mp-wgxNeM',
+      video: 'https://www.youtube.com/embed/aEknNXZiFeE',
       thumb: 'static/media/RC_B.png'
     },
     {
