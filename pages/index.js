@@ -184,6 +184,9 @@ function Home() {
           width: 100vw;
           height: 75vw;
         }
+        iframe {
+          width: 100px !important;
+        }
       `}</style>
       </div>
       )}
