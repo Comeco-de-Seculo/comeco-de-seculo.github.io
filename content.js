@@ -3,7 +3,7 @@ const content = ({
   description: 'Começo de Século é um épico apoteótico ao vivo — parte exposição, happening e teatro experimental — que acontece em ato único no dia 05 de novembro de 2019, da meia-noite às três da manhã na Galeria Jaqueline Martins, e é acompanhado por ações não anunciadas no espaço público, um álbum e este site com vídeos comissionados e documentais.',
   header: {
       text1: 'BEGINNING OF A CENTURY is a live apotheotic epic — part exhibition, happening and experimental theater — that happens in one-act on November 6, from midnight to 3 a.m.',
-      text2: 'at <a href="http://galeriajaquelinemartins.com.br/exposicao/comecodeseculo" target="_blank">Galeria Jaqueline Martins</a>, and is followed by unannounced activities in public spaces, a music album, and this website with documentation and comissioned videos.',
+      text2: 'at <a href="http://galeriajaquelinemartins.com.br/exposicao/comecodeseculo" target="_blank">Galeria Jaqueline Martins</a>, and is followed by unannounced activities in public spaces, a music album by <a href="https://dominalabel.bandcamp.com" target="_blank">Domina Label</a>, and this website with documentation and comissioned videos.',
       text3: 'Curated by:\nGERMANO DUSHÁ\nCuratorial ass:\nGUILHERME TEIXEIRA',
       text4: 'SÃO\nPAULO\n2019'
   },
