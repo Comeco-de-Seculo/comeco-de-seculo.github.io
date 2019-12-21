@@ -51,18 +51,25 @@ const content = ({
       thumb: 'static/media/JW_L.png'
     },
     {
-        index: 'CDS07',
+      index: 'CDS07',
       length: '04:11',
       title: 'NAVES CILÍNDRICAS_Deserto',
       video: 'https://www.youtube.com/embed/hz8WTMzhYy0',
       thumb: 'static/media/NC_D.png'
     },
       {
-        index: 'CDS08',
-      length: '02:08',
-      title: 'LUCAS BRANDÃO_BUG',
-      video: 'https://www.youtube.com/embed/s0wrMtMWQmo',
+      index: 'CDS08',
+      length: '02:09',
+      title: 'LUCAS BRANDÃO_Bug',
+      video: 'https://www.youtube.com/embed/7y3zOCXFGtE',
       thumb: 'static/media/LB_B.png'
+    },
+     {
+      index: 'CDS09',
+      length: '03:55',
+      title: 'NINA BOTKAY_Delir',
+      video: 'https://www.youtube.com/embed/NXufPDiTKNc',
+      thumb: 'static/media/NB_D.png'
     },
     {
     },
