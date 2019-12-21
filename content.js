@@ -51,6 +51,13 @@ const content = ({
       thumb: 'static/media/JW_L.png'
     },
     {
+        index: 'CDS07',
+      length: '04:11',
+      title: 'NAVES CILÍNDRICAS_Deserto',
+      video: 'https://www.youtube.com/embed/hz8WTMzhYy0',
+      thumb: 'static/media/JW_L.png'
+    },
+    {
     },
   ]
 })
