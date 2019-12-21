@@ -55,7 +55,14 @@ const content = ({
       length: '04:11',
       title: 'NAVES CILÍNDRICAS_Deserto',
       video: 'https://www.youtube.com/embed/hz8WTMzhYy0',
-      thumb: 'static/media/JW_L.png'
+      thumb: 'static/media/NC_D.png'
+    },
+      {
+        index: 'CDS08',
+      length: '02:08',
+      title: 'LUCAS BRANDÃO_BUG',
+      video: 'https://www.youtube.com/embed/s0wrMtMWQmo',
+      thumb: 'static/media/LB_B.png'
     },
     {
     },
