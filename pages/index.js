@@ -48,7 +48,7 @@ function Home() {
       </tbody>
     </table>
     {selectedItem && <div className='modal'>
-      <iframe width="1656" height="640" src={selectedItem.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
+      <iframe width="1200" height="640" src={selectedItem.video} frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen />
       <a href="#" onClick={() => setSelectedItem(null)}><Close /></a>
     </div>}
     <Modal />
